@@ -4,7 +4,7 @@ module.exports = function createDreamTeam(array) {
   let fail = "FAIL"
   let firstLetter=[]
   let trimed
-  if(array === null || array === undefined || array["foo"] === 'bar'){
+  if(array === null || array === undefined || array.length === undefined){
     return false
   }else if(array.length === 0){
       return fail
